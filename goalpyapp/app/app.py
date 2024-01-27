@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon=":bar_chart:",
     layout="wide",
 )
-st.title("Web App GoalPy ⚽")
+st.title(" O APP DO BIGODE ⚽")
 
 st.markdown(
     """
@@ -22,7 +22,7 @@ st.markdown(
 
 def load_data_jogos():
     data_jogos = pd.read_csv(
-        r"C:\Users\Administrador\Desktop\repositorios\goalpyapp\dados_csv\proximos_jogos.csv"
+        r"C:\Users\Alexandre\OneDrive\Área de Trabalho\Projeto Fut\goalpyapp\dados_csv"
     )
     data_jogos = data_jogos[
         [

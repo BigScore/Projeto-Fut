@@ -288,6 +288,4 @@ diretorio = r"C:\Users\Alexandre\OneDrive\Área de Trabalho\Projeto Fut\base_exc
 if not os.path.exists(diretorio):
     os.makedirs(diretorio)
 
-df.to_excel(os.path.join(diretorio, 'jogos_do_dia_trat.xlsx'), index=False)
-     
-                 
+df.to_excel(os.path.join(diretorio, 'jogos_do_dia_trat.xlsx'), index=False)                  
