@@ -22,7 +22,7 @@ st.markdown(
 
 def load_data_jogos():
     data_jogos = pd.read_csv(
-        r"C:\Users\Alexandre\OneDrive\Área de Trabalho\Projeto Fut\goalpyapp\dados_csv"
+        r"C:\Users\Alexandre\OneDrive\Área de Trabalho\Projeto Fut\goalpyapp\dados_csv\proximos_jogos.csv"
     )
     data_jogos = data_jogos[
         [
